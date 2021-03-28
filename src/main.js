@@ -37,6 +37,6 @@ function init() {
         scene.add(car);
         renderer.render(scene, camera);
         car.scale.set(10, 10, 10);
-    })
+    });
 }
 init();
