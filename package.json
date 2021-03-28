@@ -1,0 +1,25 @@
+{
+  "name": "tacticalurbanismproject",
+  "version": "1.0.0",
+  "description": "Tactical Urbanism NW.js application for GS1030H",
+  "main": "index.html",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64 --buildDir dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKeane4210/TacticalUrbanismProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKeane4210/TacticalUrbanismProject/issues"
+  },
+  "homepage": "https://github.com/JKeane4210/TacticalUrbanismProject#readme",
+  "devDependencies": {
+    "nw": "^0.52.0-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}
