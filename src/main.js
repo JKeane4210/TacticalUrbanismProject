@@ -1,3 +1,8 @@
+/**
+ * To have all of the three.js modules accessible, use 'npm i three' at the src folder,
+ * so the path of the needed files can be accessed correctly
+ */
+
 // import * as THREE from "/node_modules/three/build/three.module.js";
 
 let scene, camera, renderer, light;
