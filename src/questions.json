@@ -1,0 +1,24 @@
+{
+    "questions" : [
+        {
+            "question" : "QUESTION_1",
+            "answer": "ANSWER_1"
+        },
+        {
+            "question" : "QUESTION_2",
+            "answer": "ANSWER_2"
+        },
+        {
+            "question" : "QUESTION_3",
+            "answer": "ANSWER_3"
+        },
+        {
+            "question" : "QUESTION_4",
+            "answer": "ANSWER_4"
+        },
+        {
+            "question" : "QUESTION_5",
+            "answer": "ANSWER_5"
+        }
+    ]
+}

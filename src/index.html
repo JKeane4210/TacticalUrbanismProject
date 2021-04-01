@@ -1,8 +1,17 @@
 <html>
     <body>
+        <script src="mainController.js"></script>
         <script src="node_modules/three/build/three.min.js"></script>
         <script type="module" src="node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
         <script type="module" src="main.js"></script>
-        <p>Hello World!</p>
+        <table>
+            <tr>
+                <button onclick="loadQuestionData(0)">Question 1</button>
+                <button onclick="loadQuestionData(1)">Question 2</button>
+                <button onclick="loadQuestionData(2)">Question 3</button>
+                <button onclick="loadQuestionData(3)">Question 4</button>
+                <button onclick="loadQuestionData(4)">Question 5</button>
+            </tr>
+        </table>
     </body>
 </html>
