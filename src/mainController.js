@@ -6,3 +6,8 @@ function loadQuestionData(questionNumber) {
     document.getElementById("question").innerHTML = question;
     document.getElementById("answer").innerHTML = answer;
 }
+
+function popup(source) {
+    var popup = source.children[0];
+    popup.classList.toggle("show");
+}
