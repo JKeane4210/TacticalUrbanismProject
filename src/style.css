@@ -55,3 +55,14 @@
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+.nodebtn:hover {
+  -webkit-filter: brightness(50%); 
+  -moz-filter: brightness(50%);
+ }
+
+ .nodebtn:active {
+  -webkit-filter: brightness(50%); 
+  -moz-filter: brightness(50%);
+}
+
