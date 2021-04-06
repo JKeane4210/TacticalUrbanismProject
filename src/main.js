@@ -45,6 +45,7 @@ function init3D() {
 
     // loads the 3D objectr from a GLTF loader class
     let loader = new THREE.GLTFLoader();
+    window.addEventListener('resize', onWindowResize, false);
     loader.load("./assets/testMonkey2.glb", function(gltf) {
         mesh = gltf.scene.children[0];
         scene.add(mesh);
@@ -56,9 +57,17 @@ function init3D() {
     });
 }
 
+
+function onWindowResize() {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+}
+
 function initializeFields() {
-    
+
 }
 
 init3D();
 initializeFields();
+
