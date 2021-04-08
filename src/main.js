@@ -43,9 +43,12 @@ function init3D() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
+    // resizes model and button layout with window resize
+    window.addEventListener('resize', onWindowResize, false);
+
     // loads the 3D objectr from a GLTF loader class
     let loader = new THREE.GLTFLoader();
-    window.addEventListener('resize', onWindowResize, false);
+    
     loader.load("./assets/testMonkey2.glb", function(gltf) {
         mesh = gltf.scene.children[0];
         scene.add(mesh);
