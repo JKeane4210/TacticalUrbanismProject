@@ -1,10 +1,15 @@
+var fs = require('fs');
+
 function loadQuestionData(questionNumber) {
-    let questions = require("./questions.json");
+    var data = fs.readFileSync("questions.json");
+    var questionsJSON = JSON.parse(data);
+    questionsJSON.desired_question = questionNumber;
+    var dataOuput = JSON.stringify(questionsJSON, null, 2);
+    fs.writeFileSync("questions.json", dataOuput, finished);
+    function finished(err) {
+        console.log("Problem reading");
+    }
     document.location = "./questionResponse.html";
-    let question = questions.questions[questionNumber].question;
-    let answer = questions.questions[questionNumber].answer;
-    document.getElementById("question").innerHTML = question;
-    document.getElementById("answer").innerHTML = answer;
 }
 
 function popup(source) {

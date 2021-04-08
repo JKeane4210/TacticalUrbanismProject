@@ -5,6 +5,7 @@
 
 // import * as THREE from "/node_modules/three/build/three.module.js";
 
+var fs = require('fs');
 let scene, camera, renderer, light, mesh;
 
 var mainLoop = () => {
@@ -68,7 +69,12 @@ function onWindowResize() {
 }
 
 function initializeFields() {
-
+    var data = fs.readFileSync("questions.json");
+    var questionsJSON = JSON.parse(data);
+    var popups = questionsJSON.popups;
+    for (var i = 0; i < popups.length; ++i) {
+        document.getElementsByClassName("popuptext")[i].innerHTML = popups[i];
+    }
 }
 
 init3D();

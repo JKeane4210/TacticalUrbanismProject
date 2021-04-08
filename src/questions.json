@@ -1,24 +1,31 @@
 {
-    "questions" : [
-        {
-            "question" : "QUESTION_1",
-            "answer": "ANSWER_1"
-        },
-        {
-            "question" : "QUESTION_2",
-            "answer": "ANSWER_2"
-        },
-        {
-            "question" : "QUESTION_3",
-            "answer": "ANSWER_3"
-        },
-        {
-            "question" : "QUESTION_4",
-            "answer": "ANSWER_4"
-        },
-        {
-            "question" : "QUESTION_5",
-            "answer": "ANSWER_5"
-        }
-    ]
+  "desired_question": 1,
+  "questions": [
+    {
+      "question": "QUESTION_1",
+      "answer": "ANSWER_1"
+    },
+    {
+      "question": "QUESTION_2",
+      "answer": "ANSWER_2"
+    },
+    {
+      "question": "QUESTION_3",
+      "answer": "ANSWER_3"
+    },
+    {
+      "question": "QUESTION_4",
+      "answer": "ANSWER_4"
+    },
+    {
+      "question": "QUESTION_5",
+      "answer": "ANSWER_5"
+    }
+  ],
+  "popups": [
+    "popup 1",
+    "the popup 2",
+    "a popup 3",
+    "el cuarto mensaje"
+  ]
 }
