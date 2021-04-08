@@ -5,7 +5,7 @@ function loadQuestionData(questionNumber) {
     var questionsJSON = JSON.parse(data);
     questionsJSON.desired_question = questionNumber;
     var dataOuput = JSON.stringify(questionsJSON, null, 2);
-    fs.writeFileSync("questions.json", dataOuput, finished);
+    fs.writeFile("questions.json", dataOuput, finished);
     function finished(err) {
         console.log("Problem reading");
     }

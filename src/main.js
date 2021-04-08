@@ -7,6 +7,11 @@
 
 var fs = require('fs');
 let scene, camera, renderer, light, mesh;
+let BG_COLOR = 0x80bde0;
+let STRING_BG_COLOR = '#80bde0'
+
+document.body.style.overflow = 'hidden';
+document.body.style.backgroundColor = STRING_BG_COLOR;
 
 var mainLoop = () => {
     requestAnimationFrame(mainLoop);
@@ -17,7 +22,7 @@ var mainLoop = () => {
 function init3D() {
     // creates the scene
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x80bde0);
+    scene.background = new THREE.Color(BG_COLOR);
     camera = new THREE.PerspectiveCamera(40, window.innerWidth/window.innerHeight, 1, 5000);
     camera.rotation.y = 90/180*Math.PI;
     camera.position.x = 50;

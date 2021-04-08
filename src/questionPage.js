@@ -8,9 +8,17 @@ function intializePage() {
     let answer = questionsJSON.questions[desired_question].answer;
     console.log(question);
     console.log(answer);
-    console.log(document);
     document.getElementById("question").innerHTML = question;
-    document.getElementById("answer").innerHTML = answer;
+    var answerTable = document.getElementById("answer");
+    answer.forEach(paragraph => {
+        var p = document.createElement("p");
+        p.innerHTML = paragraph;
+        var td = document.createElement("td");
+        td.append(p);
+        var tr = document.createElement("tr");
+        tr.appendChild(td);
+        answerTable.appendChild(tr);
+    });
 }
 
 intializePage();

@@ -1,25 +1,37 @@
 {
-  "desired_question": 1,
+  "desired_question": 4,
   "questions": [
     {
-      "question": "QUESTION_1",
-      "answer": "ANSWER_1"
+      "question": "How do realizations about your mindset help your team?",
+      "answer": [
+        "An important piece of our mindset that is necessary to keep us motivated is that this project is realizing that we are working for the long term. This is a large project, and to do it right, we need to take our time to make sure we are satisfying all who will be impacted by the work of the project.",
+        "In our mindset, we recognize that we need to be iterative about our work because a lot of this project is new territory for us. If we do not keep checking that we are following the right criteria, we may lose track of what we need to do. We need to take this inexperience as an opportunity to learn.",
+        "Finally, we need to recognize that communication is key in this project because there are many partners that we have to interact with and make sure that we are listening to. Further, since we do not have in person meetings to express our thoughts on the projects, we need to realize that we have to ask questions when they arise."
+      ]
     },
     {
-      "question": "QUESTION_2",
-      "answer": "ANSWER_2"
+      "question": "What comparisons exist between your community centered project and how others have approached such types of work? Contrasts?",
+      "answer": [
+        "ANSWER_2"
+      ]
     },
     {
-      "question": "QUESTION_3",
-      "answer": "ANSWER_3"
+      "question": "With your new knowledge, what do you wish you knew sooner and would have liked to implement?",
+      "answer": [
+        "ANSWER_3"
+      ]
     },
     {
-      "question": "QUESTION_4",
-      "answer": "ANSWER_4"
+      "question": "What would you hypothetically do to test your work before finalizing it for this term?",
+      "answer": [
+        "ANSWER_4"
+      ]
     },
     {
-      "question": "QUESTION_5",
-      "answer": "ANSWER_5"
+      "question": "What concepts from the text could you apply to your servant leadership work more realistically?",
+      "answer": [
+        "ANSWER_5"
+      ]
     }
   ],
   "popups": [
