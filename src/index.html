@@ -6,11 +6,13 @@
         <script type="module" src="node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
         <script type="module" src="main.js"></script>
         <div class="ui" style="top:0">
-            <button onclick="loadQuestionData(0)">Question 1</button>
-            <button onclick="loadQuestionData(1)">Question 2</button>
-            <button onclick="loadQuestionData(2)">Question 3</button>
-            <button onclick="loadQuestionData(3)">Question 4</button>
-            <button onclick="loadQuestionData(4)">Question 5</button>
+            <div class="multi-button">
+                <button class="btn" onclick="loadQuestionData(0)">Question 1</button>
+                <button class="btn" onclick="loadQuestionData(1)">Question 2</button>
+                <button class="btn" onclick="loadQuestionData(2)">Question 3</button>
+                <button class="btn" onclick="loadQuestionData(3)">Question 4</button>
+                <button class="btn" onclick="loadQuestionData(4)">Question 5</button>
+            </div>
         </div>
         <div class="ui" style="top:15%; right:15%;">
             <div class="popup" onclick="popup(this)">
