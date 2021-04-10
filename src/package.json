@@ -8,8 +8,12 @@
   },
   "window": {
     "title": "Tactical Urbanism: Walnut Way Wellness Hub and E-Commerce Platform",
-    "min_width": 600,
-    "min_height": 300
+    "min_width": 956,
+    "min_height": 795,
+    "max_width": 956,
+    "max_height": 795,
+    "width": 956,
+    "height": 795
   },
   "keywords": [],
   "author": "",

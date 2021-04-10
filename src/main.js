@@ -22,7 +22,7 @@ var mainLoop = () => {
 function init3D() {
     // creates the scene
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(BG_COLOR);
+    // scene.background = new THREE.Color(BG_COLOR);
     camera = new THREE.PerspectiveCamera(40, window.innerWidth/window.innerHeight, 1, 5000);
     camera.rotation.y = 90/180*Math.PI;
     camera.position.x = 50;
@@ -45,8 +45,9 @@ function init3D() {
     // scene.add(light2);
 
     // creates the renderer for the scene
-    renderer = new THREE. WebGLRenderer({antialias:true});
+    renderer = new THREE. WebGLRenderer({antialias:true, alpha: true});
     renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setClearColor(0xffffff, 0);
     document.body.appendChild(renderer.domElement);
 
     // resizes model and button layout with window resize
@@ -60,7 +61,7 @@ function init3D() {
         scene.add(mesh);
         renderer.render(scene, camera);
         mesh.scale.set(10, 10, 10);
-        mesh.position.set(0, 0, 0);
+        mesh.position.set(0, 3, -5);
         // console.log(mesh.position);
         mainLoop();
     });
