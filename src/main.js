@@ -9,6 +9,7 @@ var fs = require('fs');
 let scene, camera, renderer, light, mesh;
 let BG_COLOR = 0x80bde0;
 let STRING_BG_COLOR = '#80bde0'
+var isClockwise = false;
 
 document.body.style.overflow = 'hidden';
 document.body.style.backgroundColor = STRING_BG_COLOR;
@@ -16,7 +17,19 @@ document.body.style.backgroundColor = STRING_BG_COLOR;
 var mainLoop = () => {
     requestAnimationFrame(mainLoop);
     renderer.render(scene, camera);
-    mesh.rotation.y += 0.01;
+    if (isClockwise) {
+        let currentDifference =  Math.PI * (Math.PI / 2 - mesh.rotation.y) / (Math.PI / 2 + Math.PI / 6);
+        mesh.rotation.y += 0.01 * Math.sin(currentDifference) + 0.002;
+    } else {
+        let currentDifference =  Math.PI * (-1 * Math.PI / 6 - mesh.rotation.y) / (-1 * Math.PI / 6 - Math.PI / 2);
+        mesh.rotation.y -= 0.01 * Math.sin(currentDifference) + 0.002;
+    }
+    if (isClockwise && mesh.rotation.y > Math.PI / 2) {
+        isClockwise = false;
+    }
+    if (!isClockwise && mesh.rotation.y < -1 * Math.PI / 6) {
+        isClockwise = true;
+    }
 }
 
 function init3D() {
@@ -30,11 +43,11 @@ function init3D() {
     camera.position.z = 0;
 
     // creates ambient light
-    let hlight = new THREE.AmbientLight(0x404040, 100);
-    // scene.add(hlight);
+    let hlight = new THREE.AmbientLight(0xffffff, 1);
+    scene.add(hlight);
 
     //creates a direcctional light -> shadow
-    let directionalLight = new THREE.DirectionalLight(0xffffff, 100);
+    let directionalLight = new THREE.DirectionalLight(0xffffff, 1);
     directionalLight.position.set(0, 1, 0);
     directionalLight.castShadow = true;
     scene.add(directionalLight);
@@ -56,17 +69,37 @@ function init3D() {
     // loads the 3D objectr from a GLTF loader class
     let loader = new THREE.GLTFLoader();
     
-    loader.load("./assets/testMonkey2.glb", function(gltf) {
-        mesh = gltf.scene.children[0];
+    loader.load("./assets/CommunityWellnessHub.glb", function(gltf) {
+        mesh = gltf.scene;
+        // var materials = [];
+        // gltf.scene.children[0].children.forEach(element => {
+        //     materials.push(element.material);
+        // });
+        
+
+        // mesh.traverse(function (child) {
+        //     if (child.isMesh && child.geometry) {
+        //         let geometry = child.geometry;
+        //         geometry.clearGroups();
+        //         geometry.addGroup(0, Infinity, 0);
+        //         geometry.addGroup(0, Infinity, 1);
+        //         child.material = materials;
+        //     }
+        // })
         scene.add(mesh);
+        console.log(mesh);
+
+        // console.log(gltf.scene.children.length);
+        // child
+        // scene.add(mesh);
+        // console.log(mesh);
         renderer.render(scene, camera);
-        mesh.scale.set(10, 10, 10);
-        mesh.position.set(0, 3, -5);
+        mesh.scale.set(3, 3, 3);
+        mesh.position.set(0, 2, -7);
         // console.log(mesh.position);
         mainLoop();
     });
 }
-
 
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
