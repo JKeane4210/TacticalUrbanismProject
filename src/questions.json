@@ -1,5 +1,5 @@
 {
-  "desired_question": 1,
+  "desired_question": 4,
   "questions": [
     {
       "question": "How do realizations about your mindset help your team?",
@@ -7,37 +7,42 @@
         "An important piece of our mindset that is necessary to keep us motivated is that this project is realizing that we are working for the long term. This is a large project, and to do it right, we need to take our time to make sure we are satisfying all who will be impacted by the work of the project.",
         "In our mindset, we recognize that we need to be iterative about our work because a lot of this project is new territory for us. If we do not keep checking that we are following the right criteria, we may lose track of what we need to do. We need to take this inexperience as an opportunity to learn.",
         "Finally, we need to recognize that communication is key in this project because there are many partners that we have to interact with and make sure that we are listening to. Further, since we do not have in person meetings to express our thoughts on the projects, we need to realize that we have to ask questions when they arise."
-      ]
+      ],
+      "image": "assets/Mindset_Master_System.png"
     },
     {
       "question": "What comparisons exist between your community centered project and how others have approached such types of work? Contrasts?",
       "answer": [
         "ANSWER_2"
-      ]
+      ],
+      "image": "assets/BuildABetterBlock.jpg"
     },
     {
       "question": "With your new knowledge, what do you wish you knew sooner and would have liked to implement?",
       "answer": [
         "ANSWER_3"
-      ]
+      ],
+      "image": "assets/HindsightIs2020.jpg"
     },
     {
       "question": "What would you hypothetically do to test your work before finalizing it for this term?",
       "answer": [
         "ANSWER_4"
-      ]
+      ],
+      "image": "assets/ConnectingWithCommunity.png"
     },
     {
       "question": "What concepts from the text could you apply to your servant leadership work more realistically?",
       "answer": [
         "ANSWER_5"
-      ]
+      ],
+      "image": "assets/DesignThinkingMindset.png"
     }
   ],
   "popups": [
-    "popup 1",
-    "the popup 2",
-    "a popup 3",
+    "Walnut Way is the parent company of this project and looks to help local businesses and side-hustles in Lindsay Heights (and hopefully more Milwaukee communities too through the e-commerce platform)",
+    "Lindsay Heights residents with local businesses and or side-hustles will be able to reach more customers through the Wellness Hub and the e-commerce platform",
+    "",
     "el cuarto mensaje"
   ]
 }

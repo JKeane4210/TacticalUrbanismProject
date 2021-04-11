@@ -1,9 +1,16 @@
 <html>
+    <link rel="stylesheet" href="style.css">
     <script src="./questionPageController.js"></script>
-    <body>
-        <h1 id="question"></h1>
-        <table id="answer"></table>
-        <button onclick="returnHome()">Home</button>
+    <body class="settings">
+        <div class="split left">
+            <h1 id="question"></h1>
+            <table id="answer"></table>
+            <div style="height:50px;"></div>
+            <button class="btn" onclick="returnHome()">Home</button>
+        </div>
+        <div class="split right">
+            <img id="image" src="" width="350" height="auto">
+        </div>
     </body>
     <script src="./questionPage.js"></script>
 </html>
