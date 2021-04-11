@@ -88,3 +88,8 @@ body {
   background-color: #cccccc;
   background-size: cover;
  }
+
+ p {
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
