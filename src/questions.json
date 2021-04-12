@@ -1,5 +1,5 @@
 {
-  "desired_question": 4,
+  "desired_question": 3,
   "questions": [
     {
       "question": "How do realizations about your mindset help your team?",
@@ -13,28 +13,33 @@
     {
       "question": "What comparisons exist between your community centered project and how others have approached such types of work? Contrasts?",
       "answer": [
-        "ANSWER_2"
+        "The project that has some connections to what Walnut Way is looking to do is the project Build a Better Block. First, both of the Walnut Way and Build a Better Block are working in cities, with Walnut Way in Milwaukee and Building a Better Block in Dallas. This is important to note because these areas have been redlined for years, which has allowed for systemic degradation of certain communities, very often along color lines in cities. Second is this idea of trying to envision what a neighborhood can be. Build a Better Block does not wait around for permits. The goal is to do just start doing things. Walnut Way is similar in the fact that it is looking to benefit the community now, and they want to create services that allow the communities it works with to grow to new heights.",
+        "In contrast, there is the fact that Walnut Way is making its impact through localized sources such as the e-commerce platform and the Wellness Hub. Build a Better Block looks to actively fix things that are wrong about blocks that it works with. But these groups are not all that different in the sense that Walnut Way looks to better the community as a whole through helping local businesses and side-hustles thrive more. When these businesses become successes, this becomes a source of success for the community. Additionally, it seems that the work that Walnut Way is doing tries to remain a little more within the lines of the law in comparison to Build a Better Block's work. However, the things that Build a Better Block does should not be illegal just because they are being active and not following all the rules of formality for changing a community. Either way, these groups are both looking to make changes to their communities in a way that allows them to grow because of the work that they do, which is very important work no matter the means that it is done by."
       ],
       "image": "assets/BuildABetterBlock.jpg"
     },
     {
       "question": "With your new knowledge, what do you wish you knew sooner and would have liked to implement?",
       "answer": [
-        "ANSWER_3"
+        "This project has had a lot of shuffling and time to grow to its knew larger size, so there has not been a whole lot fo action to review over. However, something that could have been improved was planning while iterating. Planning is a great way for everyone to get on the same page with where the project is at different points, which could have been valuable in shifting quickly to different directions. There were a few times during the course of the project that as a group, we felt that we were getting somewhat lost in the shuffle of all the partners being added and the scale of the project going. If we had been better connected with the happenings of the project during these points, we may have been more capable of changing our course to help the project as it developed into different forms over time. At the base level, this comes down to better lines of communication, but this is very difficult to do during these times of pandemic, but we will take this as a learning experience and continue to be better in the future. "
       ],
       "image": "assets/HindsightIs2020.jpg"
     },
     {
-      "question": "What would you hypothetically do to test your work before finalizing it for this term?",
+      "question": "What would you hypothetically do to test your work before finalizing it for this term (assume hypothetical $5000 grant as needed)?",
       "answer": [
-        "ANSWER_4"
+        "To finalize our work for the term, we would want to (and are hoping to) interact with members of the community and create interest in the project, so that we actually have customers to use the site when it does finally become a product. We could reach out to places in the Lindsay Heights neighborhood such as Fondy Farmers Market to get fliers about the site posted or even go in person to see what the people of communities like this would want from a platform such as the one Walnut Way is looking to create.",
+        "As a site, we would want to have the platform in some form, so we could give the functionality to our partners to find out what should be fine-tuned to be more helpful to the target communities of the site. Once we have a site that is workable, we could use hypothetical grant money to get user testing of the site for both performance and user experience feedback. This is a valuable piece in the iterative process of creating a site. On top of that, we would need to buy the domain for the site and possibly something in the form of database/webservers.",
+        "On a mor general note, another big piece for our group is asking questions. We do not know the entire course of this project. While that is OK, and we can plan while working, we also need to recognize that with the many partners involved, we will get confused and we can't move forward without keeping everyone on the same page."
       ],
       "image": "assets/ConnectingWithCommunity.png"
     },
     {
       "question": "What concepts from the text could you apply to your servant leadership work more realistically?",
       "answer": [
-        "ANSWER_5"
+        "A key piece of the mindset from the reading that we can apply is the idea of empathy. It is very important that we recognize that we are making a site for others, not for ourselves. The needs of those in Lindsay Heights and other communities across Milwaukee are different from our own. From there, it becomes our responsibility to interact with people in these communities so we can recognize their needs and cater to them.",
+        "Another couple pieces from the Design Thinking Human-Centered Mindset that are valuable to note are creative confidence and optimism. It is a great thing to have big ideas, as the ideal of creative confidence suggests, and it will lead us to some great things (as the first two quarters of this project have shown as the project grew in scale). However, the growth of projects also means that the work may be larger as well as more difficult, which is where optimism becomes important. We have to be able to stay motivated with the constant reshuffling of the project as the ideas continue to grow. If we stay motivated, this project will come to an ending point of some form eventually, and it will be worth the wait if we can get there.",
+        "Finally, we learn from the readings that we need to embrace ambiguity. Right now, there are still a lot of question marks about where the project is at and where it will be going, but if we keep plowing forward we will continue to make progress and results will come. We see this in Walnut Way being able to get a grant for the project. We didn't know that it would come to this, but we continued to take the paths that were being presented to us, and it got us to this point of progress, so we just have to continue this."
       ],
       "image": "assets/DesignThinkingMindset.png"
     }
@@ -42,7 +47,8 @@
   "popups": [
     "Walnut Way is the parent company of this project and looks to help local businesses and side-hustles in Lindsay Heights (and hopefully more Milwaukee communities too through the e-commerce platform)",
     "Lindsay Heights residents with local businesses and or side-hustles will be able to reach more customers through the Wellness Hub and the e-commerce platform",
-    "",
-    "el cuarto mensaje"
+    "The e-commerce platform actually will look to make an impact that goes outside of the bounds of solely Lindsay Heights. Partnering with the Hispanic Collaborative, who provides a similar service for shopping local on an ethnic level for LatinX communities, the e-commerce site will look to provide this easy means for e-commerce to side-hustles and local businesses all over the city",
+    "The Wellness Hub and the e-commerce platform both will be big steps forward for Milwaukee in terms of community wealth building. By allowing these small businesses and side-hustles to have a means for competing with the big chain companies, the local businesses gain the opportunity to grow their assets, which as a result grows the assets of the communities instead of the big corporations",
+    "The Wellness Hub is being created in the Lindsay Heights area by Walnut Way so that local businesses and side-hustles in the area can build their businesses through use of the building and the tools it offers"
   ]
 }
